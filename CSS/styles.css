@@ -548,7 +548,7 @@ margin-bottom: 16px;
 }
 
 
-.modal-container{
+.modal-cont{
   position: fixed;
   top: 0;
   left: 0;
@@ -564,7 +564,7 @@ margin-bottom: 16px;
   pointer-events: none;
   }
 
-.modal-button{
+.modal-btn{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -576,7 +576,7 @@ margin-bottom: 16px;
     border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-button-style{
+.modal-button{
   position: absolute;
   top: 24px;
   right: 24px;
@@ -592,8 +592,8 @@ margin-bottom: 16px;
   cursor: pointer;
   transition: background-colour 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-button-style:hover,
-.modal-button-style:focus{
+.modal-button:hover,
+.modal-button:focus{
   background-color: #404bbf;
   border: none;
   fill:#ffffff;
