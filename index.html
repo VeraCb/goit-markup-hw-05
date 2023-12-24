@@ -7,7 +7,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
 
@@ -30,7 +31,7 @@
             <ul class="list">
               <li>
                 <!-- navigation link -->
-                <a class="list-link link" href="./index.html">Studio</a>
+                <a class="list-link link studio" href="./index.html">Studio</a>
               </li>
               <li>
                 <a class="list-link link" href="./portfolio.html">Portfolio</a>
@@ -63,7 +64,9 @@
           <!-- hero-title -->
           <div class="hero-div container">
             <h1 class="hero-title">Effective Solutions for Your Business</h1>
-            <button type="button" class="button-style">Order Service</button>
+            <button data-modal-open type="button" 
+            class="button-style " >Order Service</button>
+            
           </div>
         </section>
 
@@ -420,7 +423,16 @@
           </div>
         </div>
       </footer>
+      <div data-modal class="modal-container is-hidden">
+       <div class="modal-button">
+        <button data-modal-close type="button" class="modal-button-style">
+          <svg width="8" height="8" class="btn-svg">
+            <use href="./images/icons.svg#close-black"> </use>
+          </svg>
+        </button>
+      </div>
+      </div>
     </div>
-    <script src="modal.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
