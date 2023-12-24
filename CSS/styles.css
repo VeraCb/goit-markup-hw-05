@@ -25,11 +25,11 @@ body {
 div{
   display: block;
 }
-.app-container {
+ .app-container {
   width: 1200px;
   height: auto;
-}
-/* tag img */
+} 
+
 
 /* header of the page */
 .header-container {
